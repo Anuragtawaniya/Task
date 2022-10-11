@@ -1,0 +1,238 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+html,body{
+    font-family: 'Work Sans', sans-serif;
+
+}
+a,p,span{
+    font-weight: 600;
+}
+.box{
+    width: 100%;
+    height: auto;
+
+}
+main{
+    width: 100%;
+    text-align: justify;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* side bar */
+nav{
+    padding: 20px;
+}
+.side-bar li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.menu{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    background: purple;
+    margin-left: 40px;
+}
+.icon{
+    background: black;
+    width: 30%;
+    height: 0.2px;
+}
+.icon.start{
+    align-self: flex-start;
+    width: 20%;
+}
+.icon.end{
+    align-self: flex-end;
+width: 20%;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.menu-end{
+    align-self: flex-end;
+}
+
+/* hero section starts here */
+.hero{
+    width: 100%;
+    height: 80vh;
+    line-height: 40px;
+    padding: 0 1%;
+}
+.hero p{
+    line-height: normal;
+}
+.hero-content,.hero-img{
+    width: 40%;
+}
+.hero-title{
+    color: orange;
+}
+.hero-btns .btn{
+    padding: 4px 20px;
+    display: inline-block;
+    margin: 20px;
+
+    
+
+}
+.bg-btn{
+    background: 	#4169E1;
+    color: #fff;
+}
+.hero-img{
+    border-radius: 50%;
+}
+/* hero section ends here */
+
+/* achivement section  starts here */
+
+.achievement{
+    width: 100%;
+    margin: 40px 0;
+    background: #fef160 ;
+    height: 300px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.achievement div{
+    width: 20%;
+line-height: 40px;
+}
+.heading{
+    text-align: center;
+    margin: 50px 0;
+}
+.card{
+    width: 20%;
+    min-height: 150px;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 4px;
+}
+.card-title{
+    margin: 20px 0;
+}
+/* achivement section  ends here */
+
+/* blog section starts here */
+.blog{
+    margin: 50px 0;
+    background: #e7e7e7;
+    min-height: 400px;
+    padding: 20px;
+}
+.blog-btn{
+border: 1px solid #000;
+padding: 12px 18px;
+}
+
+.article{
+    padding: 20px;
+    line-height: 30px;
+}
+.art-img{
+    width: 40%;
+}
+.art-img img{
+    width: 70%;
+}
+.art-content{
+width: 60%;
+}
+.art-title hr{
+    width: 25%;
+}
+.art-content a{
+    color: 	#36454F;
+    font-weight: bold;
+   
+    
+}
+.art-content a:hover{
+    color: #4169E1;
+}
+
+/* blog section ends here */
+
+/* contact section starts here */
+.contact-title{
+    margin: 20px 0;
+}
+.contact-content,.contact-form{
+    width: 40%;
+}
+.contact-form{
+    background: #e7e7e7;
+    padding: 20px;
+}
+.contact-icons{
+    width: 50%;
+    margin: 20px 0;
+}
+.contact-icons .icons{
+    margin: 20px 0;
+}
+.contact-icons .icons i{
+    color: #fff;
+    background: #87C1FF;
+    padding: 10px;
+    border-radius: 40px;
+    margin-right: 20px;
+    
+}
+.contact-inputs{
+    margin: 20px 0;
+}
+.input-style{
+    width: 100%;
+    height: 50px;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #87C1FF;
+
+}
+#submit{
+    background: none;
+    padding: 12px 22px;
+    border: none;
+    background: #4169E1;
+    color: #fff;
+}
+
+
+/* media  */
+@media(max-width:600px){
+    .flex{
+        flex-direction: column;
+    }
+    .services-card .card{
+        width: 80%;
+        margin: 10px 0;
+    }
+    .blog-btn{
+        margin: 10px 0;
+    }
+    .art-content,.contact-form,.contact-content,.art-img{
+        width: 80%;
+    }
+    .article{
+        text-align: center;
+    }
+    .art-content p{
+        text-align: justify;
+    }
+}
