@@ -450,9 +450,12 @@ transition: 0.3s all;
    .hero-content,.hero-img{
 width: 90%;
    }
+   .hero-img{
+	   display:none;
+   }
 
 }
-@media(max-width:800px){
+@media only screen and (max-width:800px) and (max-width :900px){
     .circle{
         width: 150px;
         height: 150px;
