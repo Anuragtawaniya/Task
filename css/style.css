@@ -471,3 +471,7 @@ width: 90%;
 	.achievement div{
     width: 50%;
 	}
+	.name{
+	display:block;
+}
+}
