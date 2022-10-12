@@ -4,7 +4,9 @@ html,body{
     scroll-behavior: smooth;
 
 }
-
+a{
+text-decoration:none;
+}
 a,p,span{
     font-weight: 600;
 }
