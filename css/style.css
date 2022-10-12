@@ -465,3 +465,7 @@ width: 90%;
         left: 30px;
     }
 }
+@media(max-width:400px){
+	.achievement div{
+    width: 50%;
+	}
